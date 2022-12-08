@@ -23,6 +23,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $candidates = \App\Candidate::with('users')->paginate(5);
+        $jumlah = \App\User::where('status','SUDAH')->count();
+        return view('pilihan.summary',compact('candidates','jumlah'));
     }
 }
