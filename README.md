@@ -8,5 +8,6 @@
 6. php artisan migrate
 7. php artisan db:seed
 8. run the project: php artisan serve
-9. Login with:  user: angga@admin.com
-                pass: admin
+9. Login with:  
+<br>user: angga@admin.com
+<br>pass: admin
