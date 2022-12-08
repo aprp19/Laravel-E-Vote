@@ -11,3 +11,9 @@
 9. Login with:  
 <br>user: angga@admin.com
 <br>pass: admin
+
+## Requirement
+
+- PHP 7.1^
+- nodejs
+- composer
