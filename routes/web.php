@@ -14,12 +14,15 @@
 Route::get('/', function () {
     return redirect('/login');
 });
+Route::get('/register', function () {
+    return redirect('/register');
+});
 
 Auth::routes();
 
-Route::match(['get', 'post'], '/register', function () {
-    return redirect('/login');
-})->name('register');
+//Route::match(['get', 'post'], '/register', function () {
+//    return redirect('/login');
+//})->name('register');
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('redirect/{driver}', 'Auth\LoginController@redirectToProvider')->name('login.provider');

@@ -7,8 +7,9 @@
 5. setting the database in .env
 6. php artisan migrate
 7. php artisan db:seed
-8. run the project: php artisan serve
-9. Login with:  
+8. php artisan storage:link
+9. run the project: php artisan serve
+10. Login with:  
 <br>user: angga@admin.com
 <br>pass: admin
 
